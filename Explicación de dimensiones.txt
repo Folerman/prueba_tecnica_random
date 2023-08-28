@@ -1,0 +1,37 @@
+Fact_sales: Esta tabla de hechos contendría métricas relacionadas con las transacciones comerciales.
+
+Dimensiones:
+
+Dim_address:
+Código Postal
+Ciudad
+Estado
+
+Dim_product:
+Nombre del Producto
+Categoría del Producto
+Dim_date:
+
+Día del Crédito
+Día de la Compra
+
+Dim_merchant:
+Nombre del Comercio
+Comercio está Activo
+
+Dim_customer:
+Nombre del Usuario
+CURP
+Usuario está Activo
+
+Observaciones:
+
+Para optimizar el diseño, consideraría la normalización de los datos. Por ejemplo, separar los detalles de los usuarios en una dimensión separada podría ser beneficioso para evitar la duplicación de datos.
+
+Dado que el campo "ciudad" se repite en varias entradas, mantendría la estructura de las tablas para garantizar la integridad de los datos.
+
+Podría ser útil agregar claves primarias y foráneas para mantener la integridad de los datos en el esquema.
+
+Dado que el conjunto de datos menciona elementos como "comercio_is_active" y "user_id_active", podríamos aprovechar esta información para realizar análisis más profundos sobre las transacciones y los usuarios activos.
+
+En resumen, la idea que planteo se fundamenta en un enfoque que organiza los datos de manera que se puedan realizar análisis valiosos para respaldar decisiones inteligentes en el ámbito comercial.

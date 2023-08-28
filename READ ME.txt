@@ -1,0 +1,21 @@
+Lectura del Desafío:
+
+1. Para visualizar los archivos, se requiere la utilización de un entorno de trabajo como Jupyter Notebook.
+
+2. El archivo titulado "Creación de los CSV.ipynb" alberga los scripts diseñados para generar tablas con datos ALEATORIOS. Es relevante destacar que el uso de estos datos limita la calidad y la posibilidad de proporcionar ideas significativas en comparación con lo que se hubiera deseado lograr.
+
+3. En el archivo denominado "Creación de Dataframe, tablas y querys.ipynb", se encuentran los scripts empleados para la creación y ejecución de las consultas requeridas en relación al conjunto de tablas generadas previamente.
+
+4. El archivo titulado "Explicación de dimensiones.txt" contiene las observaciones correspondientes a los bussines_facts solicitados en la fase final del desafío.
+
+NOTA: No es imperativo ejecutar ninguna línea del cuaderno (notebook). No obstante, si se opta por hacerlo, las bibliotecas utilizadas incluyen:
+- sqlalchemy
+- faker
+- random
+- pandas
+- sqlite3
+
+Erik Fabian Vega Alvarez.
+
+
+Saludos.
